@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PCSideBarController"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "UIViewController which provide navigation via a side bar."
   s.description      = <<-DESC
   UIViewController which provide navigation via a side bar.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.screenshots      = "http://green-code.fr/screenshots/PCSideBarController-1.png", "http://green-code.fr/screenshots/PCSideBarController-2.png"
   s.license          = 'MIT'
   s.author           = { "anoiaque" => "anoiaque@gmail.com" }
-  s.source           = { :git => "https://github.com/anoiaque/PCSideBarController.git", :tag => "1.0.0" }
+  s.source           = { :git => "https://github.com/anoiaque/PCSideBarController.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/anoiaque'
 
   s.platform     = :ios, '6.0'
