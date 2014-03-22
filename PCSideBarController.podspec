@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PCSideBarController"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "UIViewController which provide navigation via a side bar."
   s.description      = <<-DESC
   UIViewController which provide navigation via a side bar.
