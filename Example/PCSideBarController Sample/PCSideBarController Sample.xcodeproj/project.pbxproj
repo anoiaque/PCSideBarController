@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3740EB3018DDBB7D00AA23CA /* PCSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3740EB2C18DDBB7D00AA23CA /* PCSideBarController.m */; };
+		3740EB3118DDBB7D00AA23CA /* PCSideBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3740EB2D18DDBB7D00AA23CA /* PCSideBarItem.m */; };
+		3740EB3218DDBB7D00AA23CA /* PCSideBarItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3740EB2E18DDBB7D00AA23CA /* PCSideBarItemCell.m */; };
+		3740EB3318DDBB7D00AA23CA /* UIViewController+PCSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3740EB2F18DDBB7D00AA23CA /* UIViewController+PCSideBarController.m */; };
+		3779C40F18DDB75000000B4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3779C40E18DDB75000000B4B /* Foundation.framework */; };
+		3779C41118DDB75000000B4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3779C41018DDB75000000B4B /* CoreGraphics.framework */; };
+		3779C41318DDB75000000B4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3779C41218DDB75000000B4B /* UIKit.framework */; };
+		3779C41918DDB75000000B4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3779C41718DDB75000000B4B /* InfoPlist.strings */; };
+		3779C41B18DDB75000000B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3779C41A18DDB75000000B4B /* main.m */; };
+		3779C41F18DDB75000000B4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3779C41E18DDB75000000B4B /* AppDelegate.m */; };
+		3779C42118DDB75000000B4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3779C42018DDB75000000B4B /* Images.xcassets */; };
+		3779C42818DDB75000000B4B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3779C42718DDB75000000B4B /* XCTest.framework */; };
+		3779C42918DDB75000000B4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3779C40E18DDB75000000B4B /* Foundation.framework */; };
+		3779C42A18DDB75000000B4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3779C41218DDB75000000B4B /* UIKit.framework */; };
+		3779C43218DDB75000000B4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3779C43018DDB75000000B4B /* InfoPlist.strings */; };
+		3779C43418DDB75000000B4B /* PCSideBarController_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3779C43318DDB75000000B4B /* PCSideBarController_SampleTests.m */; };
+		3779C44E18DDB83C00000B4B /* BookmarksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3779C44C18DDB83C00000B4B /* BookmarksViewController.m */; };
+		3779C44F18DDB83C00000B4B /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3779C44D18DDB83C00000B4B /* TodayViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3779C42B18DDB75000000B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3779C40318DDB75000000B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3779C40A18DDB75000000B4B;
+			remoteInfo = "PCSideBarController Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3740EB2818DDBB7D00AA23CA /* PCSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCSideBarController.h; sourceTree = "<group>"; };
+		3740EB2918DDBB7D00AA23CA /* PCSideBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCSideBarItem.h; sourceTree = "<group>"; };
+		3740EB2A18DDBB7D00AA23CA /* PCSideBarItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCSideBarItemCell.h; sourceTree = "<group>"; };
+		3740EB2B18DDBB7D00AA23CA /* UIViewController+PCSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PCSideBarController.h"; sourceTree = "<group>"; };
+		3740EB2C18DDBB7D00AA23CA /* PCSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCSideBarController.m; sourceTree = "<group>"; };
+		3740EB2D18DDBB7D00AA23CA /* PCSideBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCSideBarItem.m; sourceTree = "<group>"; };
+		3740EB2E18DDBB7D00AA23CA /* PCSideBarItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCSideBarItemCell.m; sourceTree = "<group>"; };
+		3740EB2F18DDBB7D00AA23CA /* UIViewController+PCSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PCSideBarController.m"; sourceTree = "<group>"; };
+		3779C40B18DDB75000000B4B /* PCSideBarController Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PCSideBarController Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3779C40E18DDB75000000B4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3779C41018DDB75000000B4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3779C41218DDB75000000B4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3779C41618DDB75000000B4B /* PCSideBarController Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PCSideBarController Sample-Info.plist"; sourceTree = "<group>"; };
+		3779C41818DDB75000000B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3779C41A18DDB75000000B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3779C41C18DDB75000000B4B /* PCSideBarController Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PCSideBarController Sample-Prefix.pch"; sourceTree = "<group>"; };
+		3779C41D18DDB75000000B4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3779C41E18DDB75000000B4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3779C42018DDB75000000B4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3779C42618DDB75000000B4B /* PCSideBarController SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PCSideBarController SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3779C42718DDB75000000B4B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3779C42F18DDB75000000B4B /* PCSideBarController SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PCSideBarController SampleTests-Info.plist"; sourceTree = "<group>"; };
+		3779C43118DDB75000000B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3779C43318DDB75000000B4B /* PCSideBarController_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCSideBarController_SampleTests.m; sourceTree = "<group>"; };
+		3779C44A18DDB83C00000B4B /* BookmarksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksViewController.h; sourceTree = "<group>"; };
+		3779C44B18DDB83C00000B4B /* TodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		3779C44C18DDB83C00000B4B /* BookmarksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksViewController.m; sourceTree = "<group>"; };
+		3779C44D18DDB83C00000B4B /* TodayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3779C40818DDB75000000B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3779C41118DDB75000000B4B /* CoreGraphics.framework in Frameworks */,
+				3779C41318DDB75000000B4B /* UIKit.framework in Frameworks */,
+				3779C40F18DDB75000000B4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3779C42318DDB75000000B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3779C42818DDB75000000B4B /* XCTest.framework in Frameworks */,
+				3779C42A18DDB75000000B4B /* UIKit.framework in Frameworks */,
+				3779C42918DDB75000000B4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3740EB2718DDBB6A00AA23CA /* PCSideBarController */ = {
+			isa = PBXGroup;
+			children = (
+				3740EB2818DDBB7D00AA23CA /* PCSideBarController.h */,
+				3740EB2918DDBB7D00AA23CA /* PCSideBarItem.h */,
+				3740EB2A18DDBB7D00AA23CA /* PCSideBarItemCell.h */,
+				3740EB2B18DDBB7D00AA23CA /* UIViewController+PCSideBarController.h */,
+				3740EB2C18DDBB7D00AA23CA /* PCSideBarController.m */,
+				3740EB2D18DDBB7D00AA23CA /* PCSideBarItem.m */,
+				3740EB2E18DDBB7D00AA23CA /* PCSideBarItemCell.m */,
+				3740EB2F18DDBB7D00AA23CA /* UIViewController+PCSideBarController.m */,
+			);
+			name = PCSideBarController;
+			sourceTree = "<group>";
+		};
+		3779C40218DDB75000000B4B = {
+			isa = PBXGroup;
+			children = (
+				3740EB2718DDBB6A00AA23CA /* PCSideBarController */,
+				3779C41418DDB75000000B4B /* PCSideBarController Sample */,
+				3779C42D18DDB75000000B4B /* PCSideBarController SampleTests */,
+				3779C40D18DDB75000000B4B /* Frameworks */,
+				3779C40C18DDB75000000B4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3779C40C18DDB75000000B4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3779C40B18DDB75000000B4B /* PCSideBarController Sample.app */,
+				3779C42618DDB75000000B4B /* PCSideBarController SampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3779C40D18DDB75000000B4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3779C40E18DDB75000000B4B /* Foundation.framework */,
+				3779C41018DDB75000000B4B /* CoreGraphics.framework */,
+				3779C41218DDB75000000B4B /* UIKit.framework */,
+				3779C42718DDB75000000B4B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3779C41418DDB75000000B4B /* PCSideBarController Sample */ = {
+			isa = PBXGroup;
+			children = (
+				3779C44A18DDB83C00000B4B /* BookmarksViewController.h */,
+				3779C44B18DDB83C00000B4B /* TodayViewController.h */,
+				3779C44C18DDB83C00000B4B /* BookmarksViewController.m */,
+				3779C44D18DDB83C00000B4B /* TodayViewController.m */,
+				3779C41D18DDB75000000B4B /* AppDelegate.h */,
+				3779C41E18DDB75000000B4B /* AppDelegate.m */,
+				3779C42018DDB75000000B4B /* Images.xcassets */,
+				3779C41518DDB75000000B4B /* Supporting Files */,
+			);
+			path = "PCSideBarController Sample";
+			sourceTree = "<group>";
+		};
+		3779C41518DDB75000000B4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3779C41618DDB75000000B4B /* PCSideBarController Sample-Info.plist */,
+				3779C41718DDB75000000B4B /* InfoPlist.strings */,
+				3779C41A18DDB75000000B4B /* main.m */,
+				3779C41C18DDB75000000B4B /* PCSideBarController Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3779C42D18DDB75000000B4B /* PCSideBarController SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3779C43318DDB75000000B4B /* PCSideBarController_SampleTests.m */,
+				3779C42E18DDB75000000B4B /* Supporting Files */,
+			);
+			path = "PCSideBarController SampleTests";
+			sourceTree = "<group>";
+		};
+		3779C42E18DDB75000000B4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3779C42F18DDB75000000B4B /* PCSideBarController SampleTests-Info.plist */,
+				3779C43018DDB75000000B4B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3779C40A18DDB75000000B4B /* PCSideBarController Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3779C43718DDB75000000B4B /* Build configuration list for PBXNativeTarget "PCSideBarController Sample" */;
+			buildPhases = (
+				3779C40718DDB75000000B4B /* Sources */,
+				3779C40818DDB75000000B4B /* Frameworks */,
+				3779C40918DDB75000000B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PCSideBarController Sample";
+			productName = "PCSideBarController Sample";
+			productReference = 3779C40B18DDB75000000B4B /* PCSideBarController Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3779C42518DDB75000000B4B /* PCSideBarController SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3779C43A18DDB75000000B4B /* Build configuration list for PBXNativeTarget "PCSideBarController SampleTests" */;
+			buildPhases = (
+				3779C42218DDB75000000B4B /* Sources */,
+				3779C42318DDB75000000B4B /* Frameworks */,
+				3779C42418DDB75000000B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3779C42C18DDB75000000B4B /* PBXTargetDependency */,
+			);
+			name = "PCSideBarController SampleTests";
+			productName = "PCSideBarController SampleTests";
+			productReference = 3779C42618DDB75000000B4B /* PCSideBarController SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3779C40318DDB75000000B4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = greencode;
+				TargetAttributes = {
+					3779C42518DDB75000000B4B = {
+						TestTargetID = 3779C40A18DDB75000000B4B;
+					};
+				};
+			};
+			buildConfigurationList = 3779C40618DDB75000000B4B /* Build configuration list for PBXProject "PCSideBarController Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3779C40218DDB75000000B4B;
+			productRefGroup = 3779C40C18DDB75000000B4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3779C40A18DDB75000000B4B /* PCSideBarController Sample */,
+				3779C42518DDB75000000B4B /* PCSideBarController SampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3779C40918DDB75000000B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3779C41918DDB75000000B4B /* InfoPlist.strings in Resources */,
+				3779C42118DDB75000000B4B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3779C42418DDB75000000B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3779C43218DDB75000000B4B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3779C40718DDB75000000B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3779C44F18DDB83C00000B4B /* TodayViewController.m in Sources */,
+				3779C41F18DDB75000000B4B /* AppDelegate.m in Sources */,
+				3740EB3318DDBB7D00AA23CA /* UIViewController+PCSideBarController.m in Sources */,
+				3740EB3118DDBB7D00AA23CA /* PCSideBarItem.m in Sources */,
+				3740EB3018DDBB7D00AA23CA /* PCSideBarController.m in Sources */,
+				3740EB3218DDBB7D00AA23CA /* PCSideBarItemCell.m in Sources */,
+				3779C41B18DDB75000000B4B /* main.m in Sources */,
+				3779C44E18DDB83C00000B4B /* BookmarksViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3779C42218DDB75000000B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3779C43418DDB75000000B4B /* PCSideBarController_SampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3779C42C18DDB75000000B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3779C40A18DDB75000000B4B /* PCSideBarController Sample */;
+			targetProxy = 3779C42B18DDB75000000B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3779C41718DDB75000000B4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3779C41818DDB75000000B4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3779C43018DDB75000000B4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3779C43118DDB75000000B4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3779C43518DDB75000000B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3779C43618DDB75000000B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3779C43818DDB75000000B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCSideBarController Sample/PCSideBarController Sample-Prefix.pch";
+				INFOPLIST_FILE = "PCSideBarController Sample/PCSideBarController Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3779C43918DDB75000000B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCSideBarController Sample/PCSideBarController Sample-Prefix.pch";
+				INFOPLIST_FILE = "PCSideBarController Sample/PCSideBarController Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3779C43B18DDB75000000B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PCSideBarController Sample.app/PCSideBarController Sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCSideBarController Sample/PCSideBarController Sample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PCSideBarController SampleTests/PCSideBarController SampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3779C43C18DDB75000000B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PCSideBarController Sample.app/PCSideBarController Sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCSideBarController Sample/PCSideBarController Sample-Prefix.pch";
+				INFOPLIST_FILE = "PCSideBarController SampleTests/PCSideBarController SampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3779C40618DDB75000000B4B /* Build configuration list for PBXProject "PCSideBarController Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3779C43518DDB75000000B4B /* Debug */,
+				3779C43618DDB75000000B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3779C43718DDB75000000B4B /* Build configuration list for PBXNativeTarget "PCSideBarController Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3779C43818DDB75000000B4B /* Debug */,
+				3779C43918DDB75000000B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3779C43A18DDB75000000B4B /* Build configuration list for PBXNativeTarget "PCSideBarController SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3779C43B18DDB75000000B4B /* Debug */,
+				3779C43C18DDB75000000B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3779C40318DDB75000000B4B /* Project object */;
+}
