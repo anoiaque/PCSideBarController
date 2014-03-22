@@ -4,7 +4,6 @@ Pod::Spec.new do |s|
   s.summary          = "UIViewController which provide navigation via a side bar."
   s.description      = <<-DESC
   UIViewController which provide navigation via a side bar.
-
   Side bar items are to select view controller and manage also actions buttons.
                        DESC
   s.homepage         = "https://github.com/anoiaque/PCSideBarController"
