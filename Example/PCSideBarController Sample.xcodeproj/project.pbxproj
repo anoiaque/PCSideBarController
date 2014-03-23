@@ -21,8 +21,6 @@
 		3779C42818DDB75000000B4B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3779C42718DDB75000000B4B /* XCTest.framework */; };
 		3779C42918DDB75000000B4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3779C40E18DDB75000000B4B /* Foundation.framework */; };
 		3779C42A18DDB75000000B4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3779C41218DDB75000000B4B /* UIKit.framework */; };
-		3779C43218DDB75000000B4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3779C43018DDB75000000B4B /* InfoPlist.strings */; };
-		3779C43418DDB75000000B4B /* PCSideBarController_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3779C43318DDB75000000B4B /* PCSideBarController_SampleTests.m */; };
 		3779C44E18DDB83C00000B4B /* BookmarksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3779C44C18DDB83C00000B4B /* BookmarksViewController.m */; };
 		3779C44F18DDB83C00000B4B /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3779C44D18DDB83C00000B4B /* TodayViewController.m */; };
 /* End PBXBuildFile section */
@@ -59,9 +57,6 @@
 		3779C42018DDB75000000B4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3779C42618DDB75000000B4B /* PCSideBarController SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PCSideBarController SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3779C42718DDB75000000B4B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3779C42F18DDB75000000B4B /* PCSideBarController SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PCSideBarController SampleTests-Info.plist"; sourceTree = "<group>"; };
-		3779C43118DDB75000000B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3779C43318DDB75000000B4B /* PCSideBarController_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCSideBarController_SampleTests.m; sourceTree = "<group>"; };
 		3779C44A18DDB83C00000B4B /* BookmarksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksViewController.h; sourceTree = "<group>"; };
 		3779C44B18DDB83C00000B4B /* TodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		3779C44C18DDB83C00000B4B /* BookmarksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksViewController.m; sourceTree = "<group>"; };
@@ -112,7 +107,6 @@
 			children = (
 				3740EB2718DDBB6A00AA23CA /* PCSideBarController */,
 				3779C41418DDB75000000B4B /* PCSideBarController Sample */,
-				3779C42D18DDB75000000B4B /* PCSideBarController SampleTests */,
 				3779C40D18DDB75000000B4B /* Frameworks */,
 				3779C40C18DDB75000000B4B /* Products */,
 			);
@@ -160,24 +154,6 @@
 				3779C41718DDB75000000B4B /* InfoPlist.strings */,
 				3779C41A18DDB75000000B4B /* main.m */,
 				3779C41C18DDB75000000B4B /* PCSideBarController Sample-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3779C42D18DDB75000000B4B /* PCSideBarController SampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				3779C43318DDB75000000B4B /* PCSideBarController_SampleTests.m */,
-				3779C42E18DDB75000000B4B /* Supporting Files */,
-			);
-			path = "PCSideBarController SampleTests";
-			sourceTree = "<group>";
-		};
-		3779C42E18DDB75000000B4B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3779C42F18DDB75000000B4B /* PCSideBarController SampleTests-Info.plist */,
-				3779C43018DDB75000000B4B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -266,7 +242,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3779C43218DDB75000000B4B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3779C43418DDB75000000B4B /* PCSideBarController_SampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +285,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				3779C41818DDB75000000B4B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3779C43018DDB75000000B4B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3779C43118DDB75000000B4B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
