@@ -12,9 +12,9 @@ Side bar items are to select view controller and manage also actions buttons.
 -->
 ## Usage
 
-<!---
+-
 To run the example project; clone the repo, and run `pod install` from the Example directory first.
--->
+
 You can see sample project using SideBarController : **PCSideBarControllerSample**
 
 Here is a quick show :
@@ -101,12 +101,12 @@ Here is a quick show :
 
 Copy sources files Classes/ios/*.{h,m}
 
-<!---
+-
 PCSideBarController is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
     pod "PCSideBarController"
--->
+
 
 ## Author
 
