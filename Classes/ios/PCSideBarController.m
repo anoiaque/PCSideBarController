@@ -32,6 +32,12 @@ const CGFloat kpcSectionSpaceInterval = 160.;
 
 #pragma mark API methods
 
+- (void)reloadContentView
+{
+  [self.containerView removeFromSuperview];
+  [self.view addSubview:self.containerView];
+}
+
 - (void)reloadSideBar
 {
   [self.itemsView reloadData];

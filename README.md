@@ -80,6 +80,14 @@ Here is a quick show :
     // Set Action Item active/inactive
     
     [sideBarController setActionItemAtIndex:0 active:YES];
+    
+    // Reload SideBar
+    
+    //[_sideBarController reloadSideBar];
+
+    // Reload Selected View Controller content view
+    
+    //[_sideBarController reloadContentView];
 
 ### PCSideBarControllerDelegate
 

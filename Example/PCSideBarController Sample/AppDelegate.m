@@ -67,6 +67,14 @@
 
     _sideBarController.buttonsItems = @[pinActionItem];
     
+    // Reload SideBar
+    
+    //[_sideBarController reloadSideBar];
+
+    // Reload Selected View Controller content view
+    
+    //[_sideBarController reloadContentView];
+
     // Set Action Item active
     //[_sideBarController setActionItemAtIndex:0 active:YES];
     

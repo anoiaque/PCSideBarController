@@ -26,6 +26,7 @@
 @property (nonatomic) BOOL drawBorder;
 
 - (void)reloadSideBar;
+- (void)reloadContentView;
 - (void)setActionItemAtIndex:(NSInteger)index active:(BOOL)isActive;
 
 @end
