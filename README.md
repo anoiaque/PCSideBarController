@@ -4,12 +4,12 @@ UIViewController which provide navigation via a side bar.
 
 Side bar items are to select view controller and manage also actions buttons.
 
-<!---
+-
 
 [![Version](http://cocoapod-badges.herokuapp.com/v/PCSideBarController/badge.png)](http://cocoadocs.org/docsets/PCSideBarController)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/PCSideBarController/badge.png)](http://cocoadocs.org/docsets/PCSideBarController)
 
--->
+
 ## Usage
 
 -
