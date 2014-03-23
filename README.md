@@ -82,6 +82,18 @@ Here is a quick show :
     
     [sideBarController setActionItemAtIndex:0 active:YES];
 
+### PCSideBarControllerDelegate
+
+	Protocol : PCSideBarControllerDelegate
+	Optional method : sideBarController:didSelectViewController:
+	
+
+	- (void)sideBarController:(PCSideBarController *)sideBarController didSelectViewController:(UIViewController *)viewController
+	{
+  	  NSLog(@"ViewController %@ Selected", viewController.class);
+	}
+
+
 ### View controller assigned to SideBarController configuration
 
 	@implementation BookmarksViewController
