@@ -13,9 +13,8 @@ Side bar items are to select view controller and manage also actions buttons.
 ## Usage
 
 -
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
 
-You can see sample project using SideBarController : **PCSideBarControllerSample**
+Sample project using SideBarController under /Example: **PCSideBarController Sample.xcodeproj**
 
 Here is a quick show :
 
