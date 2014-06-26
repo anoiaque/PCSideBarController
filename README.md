@@ -126,7 +126,7 @@ it simply add the following line to your Podfile:
 
     pod "PCSideBarController"
 
-
+## Changelog
 ## Author
 
 anoiaque, anoiaque@gmail.com
